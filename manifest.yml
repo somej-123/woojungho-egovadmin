@@ -1,0 +1,10 @@
+---
+applications:
+- name: woojungho-egovadmin
+  memory: 512M
+  host: woojungho-egovadmin
+  domain: paas-ta.org
+  services:
+  - woojungho-egov-db
+  instances: 1
+  disk_quota: 512M
